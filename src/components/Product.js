@@ -51,7 +51,7 @@ const Product = ({ item, provider, account, blockKart, togglePop }) => {
 
           <p>{item.address}</p>
 
-          <h2>{ethers.utils.formatUnits(item.cost.toString(), 'ether')} ETH</h2>
+          <h2>{ethers.utils.formatUnits(item.cost.toString(), 'ether')} MATIC</h2>
 
           <hr />
 
@@ -67,7 +67,7 @@ const Product = ({ item, provider, account, blockKart, togglePop }) => {
         </div>
 
         <div className="product__order">
-          <h1>{ethers.utils.formatUnits(item.cost.toString(), 'ether')} ETH</h1>
+          <h1>{ethers.utils.formatUnits(item.cost.toString(), 'ether')} MATIC</h1>
 
           <p>
             FREE delivery <br />
